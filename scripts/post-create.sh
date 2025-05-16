@@ -7,7 +7,7 @@ GIT_URL="https://gitlab.ledevsimple.ca/wp-sites/${PROJECT}.git"
 GIT_ORIGIN="ssh://git@gitlab.ledevsimple.ca:222/wp-sites/${PROJECT}.git"
 
 # Rename project
-sed -i -e "s/wp-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json
+sed -i -e "s/eve-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json
 
 # Initialize git repository
 git init
@@ -23,7 +23,7 @@ if [ "${error_code-0}" -eq 0 ]; then
 else
   git remote remove gitlab
   git add -A
-  git commit -am 'chore: initial wp-boilerplate project'
+  git commit -am 'chore: initial eve-boilerplate project'
 fi
 
 # Create database
