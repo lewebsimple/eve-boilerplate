@@ -1,0 +1,380 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3d7a0fc21c7f6a17ff95e3f37c913f8e",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/12fb2dfe5e16183de69e784a7b84046c43d97e8e",
+                "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.10.27 || ^2.7",
+                "composer/semver": "^1.7.2 || ^3.4.0",
+                "phpstan/phpstan": "^1.11",
+                "phpstan/phpstan-phpunit": "^1",
+                "symfony/phpunit-bridge": "^7.1.1",
+                "symfony/process": "^5 || ^6 || ^7"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "concreteCMS",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "matomo",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v2.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-06-24T20:46:46+00:00"
+        },
+        {
+            "name": "lewebsimple/admin-site-enhancements-pro",
+            "version": "v7.6.6",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/admin-site-enhancements-pro.git",
+                "reference": "f2fbe89f9321fc9437717449dc9d49381e44baf1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/admin-site-enhancements-pro/lewebsimple-admin-site-enhancements-pro-v7.6.6-822585.zip",
+                "reference": "f2fbe89f9321fc9437717449dc9d49381e44baf1",
+                "shasum": "536b63a0203c60734ea4fa65b38fffc8863a465f"
+            },
+            "type": "wordpress-plugin",
+            "time": "2025-01-13T18:13:48+00:00"
+        },
+        {
+            "name": "lewebsimple/elementor-pro",
+            "version": "v3.28.4",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/elementor-pro.git",
+                "reference": "5b215441fa45d94cc6c5cc07942e9e4e73a22336"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/elementor-pro/lewebsimple-elementor-pro-v3.28.4-c75dea.zip",
+                "reference": "5b215441fa45d94cc6c5cc07942e9e4e73a22336",
+                "shasum": "44a526a1ac8ef06ae7551a1a13d4228288581207"
+            },
+            "type": "wordpress-plugin",
+            "time": "2025-05-07T16:37:29+00:00"
+        },
+        {
+            "name": "lewebsimple/ithemes-security-pro",
+            "version": "v8.5.3.1",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/ithemes-security-pro.git",
+                "reference": "0bd3e0ab78de84bb4e2428be19f67161c1ec0960"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/ithemes-security-pro/lewebsimple-ithemes-security-pro-v8.5.3.1-d744cf.zip",
+                "reference": "0bd3e0ab78de84bb4e2428be19f67161c1ec0960",
+                "shasum": "eb7ef0661f37f45532b87efd6ed56037a95fa934"
+            },
+            "type": "wordpress-plugin",
+            "time": "2025-01-13T18:44:32+00:00"
+        },
+        {
+            "name": "lewebsimple/wp-offload-ses",
+            "version": "v1.6.8",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/wp-offload-ses.git",
+                "reference": "7b6046d329e96da3a5f6714cd73e14172d9e7840"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/wp-offload-ses/lewebsimple-wp-offload-ses-v1.6.8-368121.zip",
+                "reference": "7b6046d329e96da3a5f6714cd73e14172d9e7840",
+                "shasum": "dd0d6ff96a3c6cd6abe248ad53287a47b6f78de3"
+            },
+            "type": "wordpress-plugin",
+            "time": "2025-01-09T15:43:07+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/complianz-gdpr",
+            "version": "7.4.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/complianz-gdpr/",
+                "reference": "tags/7.4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/complianz-gdpr.7.4.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/complianz-gdpr/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-comments",
+            "version": "2.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-comments/",
+                "reference": "tags/2.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.5.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-comments/"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "3.28.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/3.28.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.28.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "5.5.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/5.5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/seo-by-rank-math",
+            "version": "1.0.244",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
+                "reference": "tags/1.0.244"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.244.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/seo-by-rank-math/"
+        },
+        {
+            "name": "wpackagist-plugin/sticky-header-effects-for-elementor",
+            "version": "1.7.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sticky-header-effects-for-elementor/",
+                "reference": "tags/1.7.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sticky-header-effects-for-elementor.1.7.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sticky-header-effects-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/user-switching",
+            "version": "1.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-switching/",
+                "reference": "tags/1.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.9.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-switching/"
+        },
+        {
+            "name": "wpackagist-theme/hello-elementor",
+            "version": "3.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/hello-elementor/",
+                "reference": "3.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/hello-elementor/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "8.2"
+    },
+    "plugin-api-version": "2.6.0"
+}

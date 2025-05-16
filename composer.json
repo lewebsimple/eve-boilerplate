@@ -1,0 +1,47 @@
+{
+  "name": "lewebsimple/eve-boilerplate",
+  "description": "WordPress project",
+  "version": "0.4.19",
+  "type": "project",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://satis.ledevsimple.ca"
+    },
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "prefer-stable": true,
+  "config": {
+    "platform": {
+      "php": "8.2"
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "./scripts/post-create.sh"
+    ]
+  },
+  "require": {
+    "lewebsimple/admin-site-enhancements-pro": "*",
+    "lewebsimple/elementor-pro": "*",
+    "lewebsimple/ithemes-security-pro": "*",
+    "lewebsimple/wp-offload-ses": "*",
+    "wpackagist-plugin/complianz-gdpr": "*",
+    "wpackagist-plugin/disable-comments": "*",
+    "wpackagist-plugin/elementor": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/seo-by-rank-math": "*",
+    "wpackagist-plugin/sticky-header-effects-for-elementor": "*",
+    "wpackagist-plugin/user-switching": "*",
+    "wpackagist-theme/hello-elementor": "*"
+  }
+}
